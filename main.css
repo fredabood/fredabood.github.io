@@ -1,0 +1,51 @@
+body {
+    background: url(./assets/portrait.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+a {
+    color: black;
+}
+
+.mobile {
+    display: inline;
+}
+
+.container-fluid {
+    padding: 5% 0% 0% 0%;
+}
+
+.fa-address-book, .fa-linkedin-in, .fa-github {
+    font-size: 4em;
+    margin: 10% 10% 10% 10%;
+}
+
+@media screen and (min-width: 768px){
+    body {
+        background: url(./assets/landscape.jpg) no-repeat top center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    a {
+        color: black;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .container-fluid {
+        padding: 0% 25% 0% 0%;
+    }
+
+    .fa-address-book, .fa-linkedin-in, .fa-github {
+        font-size: 6em;
+        margin: 10% 10% 10% 10%;
+    }
+}
